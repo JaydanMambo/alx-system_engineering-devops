@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls)
+for item in *; do echo "$item"; done
